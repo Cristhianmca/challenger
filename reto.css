@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Primera Seccion */
+.section_fotos{
+    display: flex;
+    width: 1440px;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+.foto{
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+}
+/* SEGUNDA SECCION */
+.section_texto{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+.texto_1{
+    color: #90e4f9;
+    font-size: 18px;
+}
+.texto_2{
+    width: 460px;
+    margin : auto;
+    font-size: 30px;
+}
+.texto_3{
+    width: 500px;
+    margin : auto;
+    font-size: 18px;
+    text-align: center;
+    color: #8889a1;
+}
+/* FOOTER */
+.footer{
+    width: 1440px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 50vh;
+    align-items: center;
+    background: linear-gradient(
+      to top,
+      rgba(92, 140, 167, 0.8),
+      rgb(76, 130, 161)
+    ),
+    url(./mujer-descansando-sentada-silla-auriculares-mirando-telefono_88135-41343.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.footer{
+    margin-top: 100px;
+}
+
+.footer_1{
+    width: 340px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.footer_2{
+    width: 330px;
+    font-size: 20px;
+    
+    color: #ffffff;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30%;
+    background-color: #6a1d77;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    
+}
+.button:hover{
+    background-color: #cfc4c1;
+}
+.pepe{
+    text-align: center;
+   
+    margin-top: 15px;
+}
